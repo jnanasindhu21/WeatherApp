@@ -1,0 +1,77 @@
+/* change bgImg on changing weather */
+
+body{
+    background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+}
+.opacityCard{
+    opacity: 0.4;
+
+}
+
+.textColor{
+    color: rgb(15, 15, 1) !important;
+    font-size: 1.5rem !important;
+}
+
+.weatherImageSummer,
+.weatherImageCloudy,
+.weatherImageRainy
+{
+    display: none;
+}
+
+.cardWidth{
+    background-color: rgb(218, 255, 255, 0.2) !important;
+    border-radius: 10px !important;
+    width: 50%;
+}
+
+.backgroundColorWind{
+    font-weight: 800 !important;
+    border-radius: 20px !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+.backgroundColorHumidity{
+    font-weight: 800 !important;
+    border-radius: 20px !important;
+    background-color: rgba(0, 195, 255, 0.2) !important;
+}
+.backgroundColorPressure{
+    font-weight: 800 !important;
+    border-radius: 20px !important;
+    background-color: rgba(62, 254, 180, 0.2) !important;
+}
+
+
+
+/* media query */
+
+@media (max-width: 600px)
+{
+    .cardWidth
+    {
+        width: 90% !important;
+    }
+   /* .formWidth{
+        margin-left: -2rem !important;
+        
+    }
+    .formBtnWidth{
+       
+        /* margin-left: 3rem !important; */
+        /* margin-right: -90px !important; */
+        /* padding-right: 100px !important; *//*
+    }*/
+}
+
+
+@media (min-width: 600px) and (max-width: 1600px)
+{
+    .cardWidth
+    {
+        width: 90% !important;
+    }
+   
+}
