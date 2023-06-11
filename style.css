@@ -2,8 +2,8 @@
 
 body{
     background-repeat: no-repeat;
-            background-size: 100% 100%;
-            background-attachment: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 .opacityCard{
     opacity: 0.4;
@@ -66,12 +66,20 @@ body{
     }*/
 }
 
-
-@media (min-width: 600px) and (max-width: 1600px)
+@media (min-width: 600px) and (max-width: 1000px)
 {
     .cardWidth
     {
-        width: 90% !important;
+        width: 80% !important;
+    }
+   
+}
+
+@media (min-width: 1000px) and (max-width: 1600px)
+{
+    .cardWidth
+    {
+        width: 50% !important;
     }
    
 }
